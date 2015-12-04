@@ -1,0 +1,11 @@
+/.settings
+/.classpath
+/.project
+/lift_proto.db.h2.db
+/.cache-tests
+/.cache-main
+/lift_proto.db.lock.db
+/lift_proto.db.mv.db
+/console.devmode.log
+/target/
+/bin/
