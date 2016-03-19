@@ -54,3 +54,7 @@ lift_proto*
 
 # Pax Runner (for easy OSGi launching)
 runner
+
+#jars
+sbt-launch-0.13.8.jar
+sbt-launch-0.13.8.jar.tgz
