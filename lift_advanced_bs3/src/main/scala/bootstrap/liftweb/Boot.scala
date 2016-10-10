@@ -11,7 +11,7 @@ import Loc._
 import mapper._
 
 import code.model._
-import net.liftmodules.FoBo
+import net.liftmodules.{FoBo,FoBoBs}
 
 import scala.language.postfixOps
 
@@ -45,8 +45,8 @@ class Boot {
 
     //Init the FoBo - Front-End Toolkit module, 
     //see http://liftweb.net/lift_modules for more info
-    FoBo.Toolkit.Init=FoBo.Toolkit.JQuery1113  
-    FoBo.Toolkit.Init=FoBo.Toolkit.Bootstrap336 
+    FoBo.Toolkit.Init=FoBo.Toolkit.JQuery224
+    FoBo.Toolkit.Init=FoBo.Toolkit.Bootstrap337 
     FoBo.Toolkit.Init=FoBo.Toolkit.FontAwesome463    
     
     //Show the spinny image when an Ajax call starts
@@ -103,12 +103,12 @@ class Boot {
         ExtLink("http://getbootstrap.com/"), 
         S.loc("Bootstrap3", Text("Bootstrap3")), 
         LocGroup("lg2"),
-        FoBo.TBLocInfo.LinkTargetBlank ))     
+        FoBoBs.BSLocInfo.LinkTargetBlank ))     
     val foboGithub  = Menu(Loc("foboGithub", 
         ExtLink("https://github.com/karma4u101/FoBo/"), 
         S.loc("FoBoGithub", Text("FoBoGithub")), 
         LocGroup("lg2"),
-        FoBo.TBLocInfo.LinkTargetBlank ))             
+        FoBoBs.BSLocInfo.LinkTargetBlank ))             
     
     def sitemap = SiteMap(
         home          >> LocGroup("lg1"),
@@ -116,7 +116,7 @@ class Boot {
         twbs,
         foboGithub,
         ddLabel1      >> LocGroup("topRight") >> PlaceHolder submenus (
-            divider1  >> FoBo.TBLocInfo.Divider >> userMenu
+            divider1  >> FoBoBs.BSLocInfo.Divider >> userMenu
             )
          )
   }

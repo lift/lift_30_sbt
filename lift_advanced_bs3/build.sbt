@@ -1,6 +1,6 @@
 name := "Lift v3.0 Template Application with Bootstrap v3"
 
-version := "0.9.0-SNAPSHOT"
+version := "1.0.0-SNAPSHOT"
 
 organization := "net.liftweb"
 
@@ -22,7 +22,7 @@ libraryDependencies ++= {
   Seq(
     "net.liftweb"       %% "lift-webkit"        % liftVersion        % "compile",
     "net.liftweb"       %% "lift-mapper"        % liftVersion        % "compile",
-    "net.liftmodules"   %% "fobo_3.0"           % "1.6"     % "compile",
+    "net.liftmodules"   %% "fobo_3.0"           % "1.7"              % "compile",
     "org.eclipse.jetty" % "jetty-webapp"        % "8.1.17.v20150415"  % "container,test",
     "org.eclipse.jetty" % "jetty-plus"          % "8.1.17.v20150415"  % "container,test", // For Jetty Config
     "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container,test" artifacts Artifact("javax.servlet", "jar", "jar"),
