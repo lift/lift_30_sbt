@@ -16,7 +16,7 @@ import org.specs2.execute.Result
 
 object HelloWorldTestSpecs extends Specification with AroundEach {
   val session = new LiftSession("", randomString(20), Empty)
-  val stableTime: Date = (10 minutes) ago
+  val stableTime: Date = (10 minutes).ago.toDate
 
 
   /**
