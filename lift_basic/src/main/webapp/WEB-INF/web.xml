@@ -24,4 +24,9 @@
       <http-only>true</http-only>
     </cookie-config>
   </session-config>
+
+  <context-param>
+    <param-name>org.eclipse.jetty.servlet.SessionIdPathParameterName</param-name>
+    <param-value>none</param-value>
+  </context-param>
 </web-app>
