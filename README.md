@@ -15,6 +15,7 @@ Most people will want to start with the `lift_basic` template. This template sho
 * `Mapper`, which is one way to connect to a database using **Lift**.
 * `specs2`, to write unit tests (or spec tests).
 
+
 ### How to use them
 
 At your terminal, enter:
