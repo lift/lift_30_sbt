@@ -4,7 +4,7 @@ version := "1.0.0-SNAPSHOT"
 
 organization := "net.liftweb"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.3"
 
 resolvers ++= Seq(
   "snapshots"     at "https://oss.sonatype.org/content/repositories/snapshots",
@@ -25,7 +25,7 @@ libraryDependencies ++= {
     "net.liftweb"       %% "lift-mapper"        % liftVersion        % "compile",
     "net.liftmodules"   %% "fobo_3.0"           % "1.7"              % "compile",
     "ch.qos.logback"    % "logback-classic"     % "1.1.3",
-    "org.specs2"        %% "specs2"             % "3.7"              % "test",
+    "org.specs2"        %% "specs2-core"        % "3.9.4"              % "test",
     "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container,test" artifacts Artifact("javax.servlet", "jar", "jar"),
     "ch.qos.logback"    % "logback-classic"     % "1.2.3",
     "com.h2database"    % "h2"                  % "1.4.187",
