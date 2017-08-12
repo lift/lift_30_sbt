@@ -23,8 +23,8 @@ libraryDependencies ++= {
     "net.liftweb"       %% "lift-webkit"            % liftVersion,
     "net.liftmodules"   %% "lift-jquery-module_3.0" % "2.9",
     "javax.servlet"     % "javax.servlet-api"       % "3.0.1"       % "provided",
-    "ch.qos.logback"    % "logback-classic"         % "1.1.3",
-    "org.specs2"        %% "specs2-core"            % "3.6.4"       % "test"
+    "ch.qos.logback"    % "logback-classic"     % "1.2.3",
+    "org.specs2"        %% "specs2-core"        % "3.6.4"           % "test"
   )
 }
 
