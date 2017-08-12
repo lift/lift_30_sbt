@@ -8,11 +8,11 @@ import net.liftweb.common._
 import Helpers._
 import lib._
 import org.specs2.mutable.Specification
-import org.specs2.specification.AroundExample
+import org.specs2.specification.AroundEach
 import org.specs2.execute.AsResult
 
 
-object HelloWorldTestSpecs extends Specification with AroundExample{
+object HelloWorldTestSpecs extends Specification with AroundEach {
   val session = new LiftSession("", randomString(20), Empty)
   val stableTime = now
 

@@ -26,7 +26,7 @@ At your terminal, enter:
 
        SBT will download a lot of stuff and after some time, you will see the sbt prompt `>`
 
-4. `container:start`
+4. `jetty:start`
 5. Your Lift application is now running at [127.0.0.1:8080](http://127.0.0.1:8080)
 
 
@@ -44,7 +44,7 @@ You can use any IDE you want, even a text editor, but one of the best IDE for Sc
 
        After a few minutes, you will be able to start making changes to the sample project.
 
-       You can now navigate through the different files, and make changes as you wish. To see those changes take effect, you go back to `sbt` and restart `jetty` by doing `;container:stop;container:start`
+       You can now navigate through the different files, and make changes as you wish. To see those changes take effect, you go back to `sbt` and restart `jetty` by doing `;jetty:stop;jetty:start`
 
 ### Getting help     
 
